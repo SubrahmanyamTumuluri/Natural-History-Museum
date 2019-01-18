@@ -1,0 +1,426 @@
+/*
+Tumuluri, Subrahmanyam ,Red ID:821919300
+
+CS545_00
+
+Assignment #4
+
+Fall 2018
+
+
+*/
+
+.clearfix {
+overflow:auto;
+}
+h1{
+	font-family:"Times New Roman",Times,serif;
+	color:#cc3300;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	line-height:20pt;
+}
+
+h3 {
+	font-size:24px;
+	font-weight:bold;
+	color:#f44171;                
+	line-height:22px;
+}
+
+h2 {
+	color:#f44171;                
+	text-align:center;
+}
+h2.eveh {                         /* This is for h2 in Events page*/
+	text-align:center;
+}
+h3.Ex_b3_sh {                     /*This is for h3 in Exhibhits paege.*/
+	color:#dd0f31;
+}
+h2.Ex_b3{                         /*This is for h2 in Exibhits page.*/
+	color:#4286f4 ;
+}
+
+h3.bhmu {	
+font-size:24px;
+color:#f44e42;				/*This is for h4 in index page*/
+/*line-height:12;*/
+}
+h4.upe {	
+font-size:16px;				/*This is for h2 in index page*/
+color:#ff33cc;
+}
+
+h4.Dnt {
+	color:#4286f4;
+	font-size:16px;
+}
+h4.eve {                        /*This is for h4 in Events page*/
+	color:#3a2424;
+	font-size: 16px;
+}
+
+h4.Jms_Tit {                     /*This is for h4 headings in Jobs and Membership Page*/
+	color:#f71616;
+	margin-left:5px;
+	padding-left:3px;
+}
+
+h4.Sci_Tit {			/*This is for h4  headings in Science Page*/
+	color:#ff33cc;
+	text-align: center;
+		
+}
+h4.NN {				/*This heading h4 is for Newsletter in index page*/
+color:#063b7c;}
+
+h3.Jobs_Title {			/*This h3 heading is in Jobs and Membership page*/
+	color:#0a5360;
+	line-height: 20px;
+	padding:5px;
+	text-align:center;
+}
+
+body {
+	font-size:12pt;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	background-color:#ffffcc;
+	
+}
+ul.BHM_1 
+{
+	padding-left:10px;
+
+}
+ul.Eveh_B {
+	margin:0;
+	padding:5px;
+}
+
+/*box*/
+
+.box_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+
+ul.Navigationalbar{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #66ef62; /*light green bar*/
+
+}
+
+ul.Navigationalbar li {
+
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	}
+
+ul.Navigationalbar li a:link {
+	color: #0033cc;
+	
+}
+ 
+ul.Navigationalbar li a:hover {  
+	color: #ffffff;
+
+
+}
+nav ul.Navigationalbar li a:active {
+color: #000020;
+}
+
+
+div.MainPgImg1 {		/*This div is for pcture in Featured Exhibits in index page.*/
+	float:left;
+}
+div.MainPgImg2 {		/*This div is for picture in Upcoming Event in index page.*/
+	float:right;
+}
+div.fltimglft {
+	float:left;
+	text-align: left;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-right: 20px;
+	margin-left:10px;
+}
+
+div.fltimgrght {
+	float:right;
+	
+	padding-right:5px;
+	margin-right:5px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box_1_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+	overflow:auto;
+}
+
+.box1 {
+	float: left;
+    width: 50%;
+    padding: 10px;
+	overflow:auto;
+
+}
+.box_2 {
+	float: left;
+	width:50%;
+	padding:10px;
+overflow:auto;
+
+	
+}
+.box_2_1 {
+	float:right;
+	width:50%;
+	padding:10px;
+	overflow:auto;
+
+}
+section.flex-container {
+	display:flex;
+	flex-direction:row;
+
+}
+.flex-container1 {
+	display:flex;
+	flex-direction:row;
+	align-items:stretch;
+}
+
+.box_3 {  /*This is  present in Exibhits page*/
+	float: left;
+	width:50%;
+	font-size :14px;
+	padding:8px;
+
+}
+.box_3_1 {			/*This  box is  present in Exibhits page*/
+	float: left;
+	width:25%;
+	font-size :14px;
+	padding:5px;
+	overflow: hidden;
+	border-right: 2px solid #3e4047;
+	
+}
+.box_3_2 {float: left;		/*This  box is  present in Exibhits page*/
+	width:25%;
+	font-size :14px;
+	padding:5px;
+	overflow: hidden;
+	border-right: 2px solid #3e4047;
+}
+.box_3_3{float: left;		/*This  box is  present in Exibhits page*/
+	width:25%;
+	font-size :14px;
+	overflow: hidden;
+	padding:5px;
+border-right: 2px solid #3e4047;}
+
+.box_3_4 {float: right;		/*This  box is  present in Exibhits page*/
+	width:25%;
+	font-size :14px;
+	padding:5px;
+	border-right: 2px solid #3e4047;
+}
+
+.box_3_5 {float: left;		/*This  box is  present in Exibhits page*/
+	width:25%;
+	font-size :14px;
+	padding:8px;
+	overflow:hidden;
+border-right: 2px solid #3e4047;}
+
+.box_3_6 {float: left;		/*This  box is  present in Exibhits page*/
+	width:25%;
+	font-size :14px;
+	overflow: hidden;
+	padding:8px;
+border-right: 2px solid #3e4047;}
+
+.box_3_7 {float: left;		/*This  box is  present in Exibhits page*/
+	width:25%;
+	font-size :14px;
+	overflow: hidden;
+	padding:8px;
+border-right: 2px solid #3e4047;}
+
+.box_3_8 {float: left;		/*This  box is  present in Exibhits page*/
+	width:25%;
+	font-size :14px;
+	padding:8px;
+border-right: 2px solid #3e4047;}
+
+	.flex-container {display:flex;
+	flex-direction:column;
+	align-items:stretch;
+}
+.flex-container3 {    /*This flex container is present in Exibhits Page*/
+	display:flex;
+	flex-direction:row;
+	align-items:stretch;
+
+}
+.flex-container_31 {display:flex;		/*This is present in the Exhibhits page*/
+	flex-direction:row;
+	}
+
+.flex-container_32 {display:flex;		/*This is present in the Exhibhits page*/
+	flex-direction:row;
+
+	}
+
+.box_4 {	                   /*This box is present in Donations.html page*/
+	float: left;
+	width:66.67%;
+	font-size :14px;
+	padding:5px;}
+
+.box_4_1 {                     /*This box is present in Donations.html page*/
+	float:right;
+	width:33.33%;
+	font-size :14px;
+	padding:5px;
+overflow:auto;
+
+}
+.box5_1{					/*This box is present in Science.html page*/
+	float:left;
+	width:50%;
+	padding:5px;
+}
+.box5_2 {						/*This box is present in Science.html page*/
+	float:left;
+	width:50%;
+	padding:5px;
+
+}
+
+.img-container {
+    float: right;
+    padding: 10px;
+}
+.flex-container4 {             /*This flex container is present in donations.html page*/
+	display:flex;
+	flex-direction:row;
+	align-items:stretch;
+
+}
+.flex-container_5 {				/*This flex container is present in Science.html page*/
+	display:flex;
+	flex-direction:row;
+}
+	
+
+.img_AsmRep {/**/
+	float:none;
+	padding-left:5px;
+}
+
+.flex-container6 {
+	display:flex;
+	flex-direction:row;
+}
+.box_6{						/*This box is in Jobs and Membership page*/
+	float:right;
+
+	float:left;
+	width:40%;
+	font-size:14px;
+	
+}
+.box_6_1 {					/*This is in Jobs and Membership page*/
+	float:right;
+	width:60%;
+}
+
+section.Jobcntnt {
+	padding-left:10px;
+}
+section.J_SDSU {
+	padding-left:10px;
+}
+div.fltimglft1 {
+	padding-left: 10px;
+}
+
+/*Footer Styles*/
+
+footer {
+	
+	display: flex;
+	flex-wrap: nowrap;
+	height: 260px;
+	width: auto;
+	text-align: left;
+	background-color: #ed750b ;
+	position: relative;
+	padding: 15px;
+	margin: 0px;
+	overflow: auto;
+}
+
+.foc1 {								/*.foc1,  .foc2,   .foc3 are footer boxes*/
+	background-color: #ed750b;
+	float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.foc2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.foc3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;	
+}
+
+	ul.ftrbtn {					/*ftrbtn  is for footer buttons*/
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+
+}
+
+footer a:link, footer a:visited {
+	/*color: #838484;*/
+	text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+	color: #680323;
+	text-decoration: none;
+}
+
+/*Assignment 3  Form CSS */
+.required {color: #FF0000;}
+.error {color: #FF0000;}
+
+.PrsInfoForm {
+padding-left:5px;
+padding-bottom:20px;
+}
